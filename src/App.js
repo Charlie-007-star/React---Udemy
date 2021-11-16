@@ -1,15 +1,14 @@
 import React from "react";
 
+const fName = "Sujin";
+const lName = "S R";
+const year = new Date().getFullYear();
 
 const App = () => {
     return (
         <>
-         <h1>Unordered List</h1>
-         <ul>
-             <li>HIi</li>
-             <li>Hello</li>
-             <li>How are you?</li>
-         </ul>
+        <h1>Created By {`${fName} ${lName}`}!</h1>
+        <p>Copyright:{year}</p>
         </>
     )
 }

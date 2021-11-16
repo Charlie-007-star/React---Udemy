@@ -26,4 +26,30 @@
 
        * Studying the react app installing to build from scratch.
 
+       * we can declare variable and connect in the Html tag using {} braces
+
+       * Eg: const name = "Sujin"  <h1>Hello {name}</h1>
+
+       * Inside braces in Html we can write Js any syntax and can't write
+         statements in that like if else.
+
+       * syntaxes also used like <p>number {math.random()}</p>
+
+       * To get every time new random number in refresh use
+         = Math.floor(Math.random() * 10);
+
+       * Difference between Js statements and expressions ?
+
+       * Statements represent an action or command e.g print statements,
+         assignment statements.
+
+       * Expression is a combination of variables, operations and
+         values that yields a result value eg: 5 * 5 = yields 25.
+
+       * Pass two values like this <h1>Hello {fName +" "+ lName}</h1>  
+
+       * Template literals Injecting strings into Js {`${fName} ${lName}`}
+
+       * To get only Year var year = new Date().getFullYear();
+
        * 
