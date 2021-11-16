@@ -1,3 +1,5 @@
+ /* ---------------------------------- react --------------------------------- */
+
 [*] React =>
 
        * It's a framework of front and actually a library of Javascript
@@ -51,5 +53,17 @@
        * Template literals Injecting strings into Js {`${fName} ${lName}`}
 
        * To get only Year var year = new Date().getFullYear();
+
+
+[*] React Attributes and styling =>
+        
+
+       * <script src="../src/index.js" type="text/JSX"></script>
+         using this type Attributes to link the files.
+
+       * contentEditable="true" - is a content we write inside the tag the 
+         user can edit it.  
+    
+       * spellCheck="false" - it will never spellCheck that word
 
        * 
