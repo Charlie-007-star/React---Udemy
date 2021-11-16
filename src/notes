@@ -1,0 +1,29 @@
+[*] React =>
+
+       * It's a framework of front and actually a library of Javascript
+
+       * It only have one hmtl file and it have only one <div> and it's Id 
+         is connected to another app named Js file.
+
+       * And with the help of Babel it is compiler for react it converts
+         every new version code in Js to old Js so that every browser can
+         run this.   
+
+       * And we wite Html codes in Js files It's called JSX.
+
+       * With the help of Babel Internet explorer can also run our project.
+
+       * ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById('root'));
+
+       * This one gets 3 arguments and the first two are passed, the first one 
+         tells which is i want to show that's the <h1>, and the next one 
+         is used to where it have to render that id="root" of Html page.
+
+       * You can't pass two or more html tags in the parameter, So you have 
+         to write it on another file and link.
+
+       * Use only <div> or <> empty tag to perform render two or more html tags.
+
+       * Studying the react app installing to build from scratch.
+
+       * 
