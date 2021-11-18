@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const fName = "Sujin";
 const lName = "S R";
@@ -10,7 +10,7 @@ const customStyle = {
     border: "2px solid black"
 }
 
-var day = "Good Morning"
+var day;
 var date = new Date();
 var hour = date.getHours();
 
@@ -28,16 +28,14 @@ if(hour < 12){
     customStyle.color = "blue"
 }
 
-
-const App = () => {
+const Time = () => {
     return (
         <>
         <h1 className="heading" contentEditable="true" spellCheck="false">Created By {`${fName} ${lName}`}!</h1>
         <p>Copyright:{year}</p>
         <h1 style={customStyle}>{day}</h1>
-
         </>
     )
 }
 
-export default App
+export default Time;

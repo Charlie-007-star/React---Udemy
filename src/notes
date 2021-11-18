@@ -88,4 +88,24 @@
        * Inline styles are so important because it's easy to change the style
          of the html tags in react by time or anything.
 
-       *      
+
+[*] React Components =>  
+
+
+        * React components are the building blocks of React apps.
+
+        * React components are self-contained pieces of functionality that 
+          can be rendered on their own.
+
+        * React components are reusable pieces of code that can be used in 
+          multiple places.
+
+        * React components are written in Javascript and can be written in 
+          either ES6 or ES5.
+
+        * Writing components and functions use pascal case letters like 
+          eg: function Header()  
+
+        * ./Header.js means relative path to the file.
+
+        *       
