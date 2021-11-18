@@ -108,4 +108,22 @@
 
         * ./Header.js means relative path to the file.
 
-        *       
+        * You can export two functions from the any file by export { first, second }
+
+        * Default export is only one for one file 
+          eg:
+             export default pi;
+             export { first, second }
+
+          And how you can import it in another file by
+          eg: 
+             import pi, { first, second } from "filename"   
+
+        * Don't use require('react') because It's a node item use impot,export it is from
+          Javascript.
+
+        * You can export many data file, and in case of Import you can use
+          import * as NAME from "filename".
+
+        *    
+
