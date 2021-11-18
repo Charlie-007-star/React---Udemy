@@ -1,8 +1,8 @@
- /* ---------------------------------- react --------------------------------- */
+ /* ---------------------------------- React --------------------------------- */
 
 [*] React =>
 
-       * It's a framework of front and actually a library of Javascript
+       * It's a framework of front and actually a library of Javascript.
 
        * It only have one hmtl file and it have only one <div> and it's Id 
          is connected to another app named Js file.
@@ -28,7 +28,7 @@
 
        * Studying the react app installing to build from scratch.
 
-       * we can declare variable and connect in the Html tag using {} braces
+       * we can declare variable and connect in the Html tag using {} braces.
 
        * Eg: const name = "Sujin"  <h1>Hello {name}</h1>
 
@@ -55,7 +55,7 @@
        * To get only Year var year = new Date().getFullYear();
 
 
-[*] React Attributes and styling =>
+[*] React Attributes And Styling =>
         
 
        * <script src="../src/index.js" type="text/JSX"></script>
@@ -64,6 +64,28 @@
        * contentEditable="true" - is a content we write inside the tag the 
          user can edit it.  
     
-       * spellCheck="false" - it will never spellCheck that word
+       * spellCheck="false" - it will never spellCheck that word.
 
-       * 
+       * Apply styling using the external file by 
+         <link rel="stylesheet" href="./style.css">
+
+       * You can style the html tags in CSS for styling.
+
+       * You can store the link of the image in a variable and you can add
+         it by <img src={image} /> like this. 
+
+       * Easily grey scale the img by <img src={image + "?grayscale"} />
+         to change the image to grey scale color.
+
+       * In Html you style like inline through style="color: red", but in react
+         you cannot pass the style like html string, You have to create the 
+         Js object like this style={{color: "red"}} then this will work fine.
+
+       * You can add css in inline style like Js camel case like if you want
+         increase the font size through inline style you have to do it like this
+         fontSize: "20px" and not like this font-size: "20px".
+
+       * Inline styles are so important because it's easy to change the style
+         of the html tags in react by time or anything.
+
+       *      
