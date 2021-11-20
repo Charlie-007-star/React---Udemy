@@ -125,5 +125,11 @@
         * You can export many data file, and in case of Import you can use
           import * as NAME from "filename".
 
-        *    
+   
 
+[*] React [Map, Filter, Reduce, Find, FindIndex] => 
+
+
+        * Map is used to loop the data to the component where we want.
+
+        * 
