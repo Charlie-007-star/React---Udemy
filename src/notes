@@ -127,9 +127,27 @@
 
    
 
-[*] React [Map, Filter, Reduce, Find, FindIndex] => 
+[*] React [Map, forEach, Filter, Reduce, Find, FindIndex] => 
 
 
         * Map is used to loop the data to the component where we want.
+
+        * Map expects a function into that and foreach also expects a function.
+
+        * Map returns a new array with the results of the function.
+
+        * forEach is used to filter the data in the current array it will never return 
+          a new array.
+
+        * Filter creates a new array by keeping the items that return true.
+
+        * Reduce Accumulates a value by doing something to each item in an array.
+
+        * Reduce funtion takes two arguments, the first argument takes first value in the 
+          array and the second is the second value of array ny default.
+
+        * Find is used to find the first item in the array that returns true.
+
+        * FindIndex is similar like find but it returns the index of the item.
 
         * 
